@@ -1,0 +1,16 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model demo.portal.Areas.basic.Models.PageModel
+
+
+<h1>About Page (Glass Mapper :- Used Auto-Mapper)</h1>
+<div>
+    <h4>@Model.Header</h4>
+    <div>
+        @if (Model.Image != null)
+        {
+       <p><img src="@Model.Image.Src" /></p>
+        }
+        <p>@Model.Body</p>
+        <p>@Model.Date</p>
+    </div>
+</div>

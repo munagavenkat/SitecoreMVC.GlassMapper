@@ -1,0 +1,28 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model IEnumerable<demo.portal.Areas.basic.Models.BaseDeal>
+
+<h1>Deals Page (Glass Mapper :- Used Attribute Mapping)</h1>
+<div class="container">
+    <div class="card-group">
+        @foreach (var deal in Model)
+        {
+            <div class="card">
+                @if (deal.HeaderImage != null)
+                {
+
+                    <img class="card-img-top" src="@deal.HeaderImage.Src" alt="Card image cap">
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@deal.Name</h5>
+                    <p class="card-text">@deal.StartPrice</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        }
+    </div>
+    @using (Html.BeginForm("AddDeal", "Home", FormMethod.Post))
+    {
+        <input type="submit" value="Create New Deal" />
+    }
+</div>
+
