@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glassmapper.portal", "Src\d
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sitecore-package", "sitecore-package", "{55CB27F8-F787-43EF-8E46-BE7B3A0E6117}"
 	ProjectSection(SolutionItems) = preProject
-		sitecore-package\sitecoremvc-pages-v1.zip = sitecore-package\sitecoremvc-pages-v1.zip
+		sitecore-package\sitecore-glass-mapper-v1.zip = sitecore-package\sitecore-glass-mapper-v1.zip
 	EndProjectSection
 EndProject
 Global
@@ -30,7 +30,7 @@ Global
 		{F7240437-C1EE-43BB-9D5A-C143D326CC53} = {82B79757-62A5-42B5-A07A-CB55860B53EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {D62C50D8-1A0A-4660-9672-474031BB7874}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
